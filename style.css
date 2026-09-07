@@ -1,0 +1,107 @@
+```css
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: lightblue;
+}
+
+/* Digital Clock */
+#clock {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background-color: black;
+    color: white;
+
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    font-size: 20px;
+}
+
+
+/* Progress Bar */
+.progress-box {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+
+    width: 200px;
+}
+
+.progress {
+    width: 200px;
+    height: 20px;
+
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#progressBar {
+    width: 20%;
+    height: 20px;
+
+    background-color: green;
+}
+
+
+/* Flash Card */
+.card {
+    width: 450px;
+
+    margin: 150px auto;
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px gray;
+}
+
+
+/* Options */
+#options button {
+    display: block;
+
+    width: 80%;
+
+    margin: 10px auto;
+
+    padding: 10px;
+
+    background-color: blue;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Normal Buttons */
+#viewBtn,
+#nextBtn {
+    padding: 10px 25px;
+
+    margin: 10px;
+
+    background-color: darkblue;
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Result */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+}
+```
