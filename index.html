@@ -1,0 +1,55 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flash Card Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Digital Clock -->
+    <div id="clock">00:00:00</div>
+
+    <!-- Progress Bar -->
+    <div class="progress-box">
+        <h3>Progress</h3>
+
+        <div class="progress">
+            <div id="progressBar"></div>
+        </div>
+
+        <p id="progressText">Card 1 of 5</p>
+    </div>
+
+
+    <!-- Flash Card -->
+    <div class="card">
+
+        <h1>Flash Card Quiz</h1>
+
+        <h2 id="question">What is HTML?</h2>
+
+        <!-- View Button -->
+        <button id="viewBtn" onclick="viewOptions()">
+            View
+        </button>
+
+        <!-- Options -->
+        <div id="options"></div>
+
+        <!-- Result -->
+        <p id="result"></p>
+
+        <!-- Next Button -->
+        <button id="nextBtn" onclick="nextCard()">
+            Next
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
